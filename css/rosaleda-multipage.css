@@ -142,7 +142,7 @@ h1,h2,h3,h4,h5,h6 {
   display: inline-block;
 }
 
-.home-section-heading h2 {
+.home-section-heading h1 {
   font-size: 32px;
   line-height: 44px;
   text-transform: uppercase;
@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 600;
 }
 
-.home-section-heading h2 em {
+.home-section-heading h1 em {
   font-style: normal;
   color: #fdad54;
 }
@@ -771,7 +771,7 @@ MAIN BANNER
   background: #fdad54;
   padding: 0px 5px;
 }
-.welcome-box h1 {
+.welcome-box .likep {
   height: 130px;
   line-height: 130px;
   display: inline-block;
@@ -1262,8 +1262,8 @@ WHY CHOOSE US
   transition: all 0.3s;
 }
 
-.why-choose-us .feature-item h4 {
-  font-size: 16px;
+.why-choose-us .feature-item h3 {
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
   color: #1e1e1e;
@@ -1574,7 +1574,7 @@ ABOUT TESTIMONIALS
   opacity: 0.75;
 }
 
-.about-page-testimonials h4 {
+.about-page-testimonials .likeh4 {
   margin-top: 20px;
   font-size: 24px;
   margin-bottom: 5px;
@@ -1721,8 +1721,8 @@ WHAT WE OFFER
   transition: all 0.3s;
 }
 
-.what-we-offer .service-item h4 {
-  font-size: 16px;
+.what-we-offer .service-item h3 {
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
   color: #1e1e1e;
@@ -3433,7 +3433,7 @@ RESPONSIVE
 ===================================*/
 
 @media only screen and (max-width: 1200px) {
-  .welcome-box h1 {
+  .welcome-box .likep {
     height: 100px;
     line-height: 100px;
     font-weight: 600;
@@ -3459,7 +3459,7 @@ RESPONSIVE
 }
 
 @media only screen and (max-width: 880px) {
-  .welcome-box h1 {
+  .welcome-box .likep {
     height: 80px;
     line-height: 80px;
     font-weight: 600;
@@ -3500,13 +3500,13 @@ RESPONSIVE
   .home-section-heading span {
     margin-bottom: 20px;
   }
-  .home-section-heading h2 {
+  .home-section-heading h1 {
     font-size: 28px;
   }
   .home-section-heading p {
     margin-top: 30px;
   }
-  .welcome-box h1 {
+  .welcome-box .likep {
     height: 60px;
     line-height: 60px;
     font-weight: 600;
