@@ -2229,7 +2229,7 @@ CONTACT US
   float: left;
 }
 
-.contact-us .left-info ul li h6 {
+.contact-us .left-info ul li h2 {
   display: inline-block;
   font-size: 18px;
   font-weight: 600;
@@ -2663,12 +2663,7 @@ BLOG
   color: #1e1e1e;
 }
 
-.blog-content .blog-posts .blog-post ul li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.blog-content .blog-posts .blog-post ul li:after {
+.blog-content .blog-posts .blog-post h3:after {
   content: "/";
   color: #e7e7e7;
   margin-left: 10px;
@@ -3363,7 +3358,7 @@ footer .under-footer i {
   margin-right: 15px;
 }
 
-footer .under-footer h6 {
+footer .under-footer h5 {
   color: #fff;
   font-size: 18px;
   font-weight: 500;
